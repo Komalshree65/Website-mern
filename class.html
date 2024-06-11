@@ -1,0 +1,145 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f5dd62;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(16, 11, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: rgb(198, 28, 28);
+}
+h1{
+    color: aliceblue;
+    background-color: rgb(16, 11, 11);
+    font-size: 30px;
+    padding-left: 50px;
+}
+img{
+    height: 100px;
+    width:100px;
+    margin-right: 200px;
+}
+</style>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Articles</a></li>
+        <li><a href="#contact">Books</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+    </ul>
+    <img src="./green-nature-backgrounds.jpeg" alt="" class="img">
+      <h1>Learning made easy</h1>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Gallery</title>
+  <style>
+    /* Navbar styles */
+    nav {
+      background-color: #eff556;
+      color: rgb(16, 14, 14);
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover{
+        color:blue
+    }
+
+    /* Heading styles */
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      color: antiquewhite;
+      background-color: black;
+    }
+
+    /* Gallery styles */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+    .gallery img:hover{
+        transform: scale(1.1);
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1>Learning becomes easy</h1>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="https://via.placeholder.com/200" alt="Image 1">
+    <img src="https://via.placeholder.com/200" alt="Image 2">
+    <img src="https://via.placeholder.com/200" alt="Image 3">
+    <img src="https://via.placeholder.com/200" alt="Image 4">
+    <img src="https://via.placeholder.com/200" alt="Image 5">
+    <img src="https://via.placeholder.com/200" alt="Image 6">
+  </div>
+
+</body>
+</html>
